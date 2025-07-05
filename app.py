@@ -8,7 +8,7 @@ from langchain.agents import Tool,initialize_agent
 from langchain.agents.agent_types import AgentType
 
 st.set_page_config(page_title="Text To MAth Problem Solver And Data Serach Assistant",page_icon="🧮")
-st.title("Text To Math Problem Solver Uing Google Gemma 2")
+st.title("Text To Math Problem Solver Using Google Gemma 2")
 groq_api_key = st.sidebar.text_input(label="Groq_api_key",type="password")
 if not groq_api_key:
     st.info("please enter grqq api key to continue")
